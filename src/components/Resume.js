@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
+import React from 'react';
+class Resume extends React.Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <section id="resume">
 
@@ -98,3 +98,4 @@ export default  class Resume extends Component {
     );
   }
 }
+export default Resume;

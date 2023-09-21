@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
+import React from 'react';
+class Footer extends React.Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <footer>
       <div className="row">
@@ -27,3 +27,4 @@ export default class Footer extends Component {
     );
   }
 }
+export default Footer;

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default class About extends Component {
+import React from 'react';
+class About extends React.Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <section id="about">
          <div className="row">
@@ -43,3 +43,4 @@ export default class About extends Component {
     );
   }
 }
+export default About;

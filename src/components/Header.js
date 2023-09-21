@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default class Header extends Component {
+import React from 'react';
+class Header extends React.Component {
   render() {
-    let resumeData = this.props.resumeData;
+    const resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       
@@ -49,3 +49,4 @@ export default class Header extends Component {
     );
   }
 }
+export default Header;
